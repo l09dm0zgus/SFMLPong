@@ -1,4 +1,4 @@
-
+﻿
 1.Код написано повністю на С++.
 2.Проєкт повністю написаний в стилі ООП.
 3.Використовується STL.Наприклад розумний вказівник і вектор  в src/gameobject/GameObject.cpp або алгоритм std::copy  в  src/gameobject/Scene.cpp або алгоритм std::for_each  і лямда функція  в src/window/Window.cpp.
@@ -10,3 +10,9 @@
 і паттерн Observer в src/gameobject/ScoreObserver.cpp
 8.Щоб запустити проєкт:
 Linux: зайти в директорію builds/Linux64 і запустити файл Pong
+Windows: зайти в директорію builds/Windows64 і запустити файл Pong.exe
+Щоб зібрати проєкт то треба виконати:
+Linux:
+cd builds && cmake .. && make
+Windows:
+cd builds && cmake .. -G "Visual Studio 16 2019 Win64"
